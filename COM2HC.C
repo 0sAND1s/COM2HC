@@ -30,7 +30,7 @@ enum
 } TransDir;
 
 char port[5] = "COM1";
-int baud = BAUD_4800;
+int baud = CBR_4800;
 BOOL useHeader = TRUE;
 
 //Can be defined to enable block transfer instead of byte-by-byte transfer, but for block transfer progress cannot be displayed.
