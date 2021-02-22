@@ -1,0 +1,7 @@
+HC		PC
+1-CTS---7-RTS
+2-RTS---8-CTS
+3-Rx----3-Tx
+4-Tx----2-Rx
+6-GND---5-GND
+
