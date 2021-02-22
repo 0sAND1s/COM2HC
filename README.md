@@ -1,6 +1,7 @@
 Serial port transfer tool between PCs and ICE Felix HCs
+Runs on Windows command line.
 
-ICE Felix HC computers are Romanian Sinclar Spectrum clones.
+ICE Felix HC computers are Romanian Sinclar Spectrum computer clones.
 Reliable transfer with built in BASIC commands can be achieved at 4800 BAUD, not higher.
 Using machine code routines on HC can speed up the transfer up to 19600 BAUD.
 
@@ -38,5 +39,5 @@ B. HC to PC
 -l: block lenght, default is file lenght
 -t: block type, 0=Program, 3=Bytes, default 3
 -b: baud rate, default 4800
--nh: no header, default is yes, to send the 9 byte header expected by LOAD *"b" commands.
+-nh: no header, default is yes, to send the 9 byte header expected by LOAD *"b" commands. Not needed for machine code routines running on HC.
 	
